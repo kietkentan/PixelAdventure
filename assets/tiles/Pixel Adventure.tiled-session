@@ -1,0 +1,98 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Level-03.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Level-01.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320,
+                "y": 184.33333333333334
+            }
+        },
+        "Level-02.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320,
+                "y": 184.33333333333334
+            }
+        },
+        "Level-03.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 365.3333333333333,
+                "y": 160
+            }
+        },
+        "Level-04.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 639.3333333333334,
+                "y": 639.3333333333333
+            }
+        },
+        "Pixel Adventure 2.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1.5
+        },
+        "Pixel Adventure.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/Tuan Kiet/Downloads",
+    "map.height": 40,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 70,
+    "openFiles": [
+        "Level-04.tmx",
+        "Level-03.tmx",
+        "Level-01.tmx",
+        "Level-02.tmx",
+        "Pixel Adventure.tsx",
+        "Pixel Adventure 2.tsx"
+    ],
+    "project": "Pixel Adventure.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "Level-04.tmx",
+        "Pixel Adventure 2.tsx",
+        "Pixel Adventure.tsx",
+        "Level-02.tmx",
+        "Level-01.tmx",
+        "Level-03.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

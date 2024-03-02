@@ -22,4 +22,5 @@ bool checkCollision(player, block) {
 }
 
 const double joystickMargin = 64;
-const double joystickSize = 96;
+const double joystickSize = 128;
+const double jumSize = 96;

@@ -11,7 +11,7 @@ import 'package:pixel_adventure/components/jump_button.dart';
 import 'package:pixel_adventure/components/player.dart';
 import 'package:pixel_adventure/components/level.dart';
 
-import 'components/utils.dart';
+import 'utils/utils.dart';
 
 class PixelAdventure extends FlameGame
     with
@@ -83,14 +83,13 @@ class PixelAdventure extends FlameGame
         .resize(Vector2.all(joystickSize));
     final kb = await images
         .fromCache('HUD/Knob.png')
-        .resize(Vector2.all(joystickSize / 2));
+        .resize(Vector2.all(joystickSize * 0.5));
 
     joystick = JoystickComponent(
       priority: 10,
       knob: SpriteComponent(sprite: Sprite(kb)),
       background: SpriteComponent(sprite: Sprite(bg)),
-      margin:
-          const EdgeInsets.only(left: joystickMargin, bottom: joystickMargin),
+      margin: const EdgeInsets.only(left: joystickMargin, bottom: joystickMargin / 2),
     );
     jumpButton = JumpButton(onTap: (val) {
       onDownPress = val;

@@ -10,7 +10,7 @@ import 'package:pixel_adventure/components/collision_block.dart';
 import 'package:pixel_adventure/components/custom_hitbox.dart';
 import 'package:pixel_adventure/components/items/fruit.dart';
 import 'package:pixel_adventure/components/traps/saw.dart';
-import 'package:pixel_adventure/components/utils.dart';
+import 'package:pixel_adventure/utils/utils.dart';
 import 'package:pixel_adventure/pixel_adventure.dart';
 
 enum PlayerState {

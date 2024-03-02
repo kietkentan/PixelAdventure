@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
-import 'package:pixel_adventure/components/utils.dart';
+import 'package:pixel_adventure/utils/utils.dart';
 import 'package:pixel_adventure/pixel_adventure.dart';
 
 class JumpButton extends SpriteComponent
@@ -14,10 +14,10 @@ class JumpButton extends SpriteComponent
   FutureOr<void> onLoad() {
     sprite = Sprite(game.images.fromCache('HUD/JumpButton.png'));
     position = Vector2(
-      game.size.x - joystickMargin - joystickSize,
-      game.size.y - joystickMargin - joystickSize,
+      game.size.x - joystickMargin - jumSize,
+      game.size.y - joystickMargin / 2 - jumSize,
     );
-    size = Vector2.all(joystickSize);
+    size = Vector2.all(jumSize);
     priority = 10;
     return super.onLoad();
   }

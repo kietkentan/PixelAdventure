@@ -14,12 +14,11 @@ class Fruit extends SpriteAnimationComponent
     position,
     size,
   }) : super(
-          position: position,
-          size: size,
-        );
+    position: position,
+    size: size,
+  );
 
   final double stepTime = 0.05;
-  final double fruitSize = 32;
   final hitbox = CustomHitbox(
     offsetX: 10,
     offsetY: 10,
@@ -30,6 +29,7 @@ class Fruit extends SpriteAnimationComponent
 
   @override
   FutureOr<void> onLoad() {
+    // debugMode = true;
     priority = -1;
 
     add(
@@ -44,7 +44,7 @@ class Fruit extends SpriteAnimationComponent
       SpriteAnimationData.sequenced(
         amount: 17,
         stepTime: stepTime,
-        textureSize: Vector2.all(fruitSize)
+        textureSize: Vector2.all(32),
       ),
     );
     return super.onLoad();
@@ -60,10 +60,10 @@ class Fruit extends SpriteAnimationComponent
         game.images.fromCache('Items/Fruits/Collected.png'),
         SpriteAnimationData.sequenced(
           amount: 6,
-          stepTime: 0.0,
-          textureSize: Vector2.all(fruitSize),
+          stepTime: stepTime,
+          textureSize: Vector2.all(32),
           loop: false,
-        )
+        ),
       );
 
       await animationTicker?.completed;
